@@ -1,0 +1,102 @@
+2020-06-28T17:45:19.192951-00:00 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.20) initializing of server in progress as process 44
+2020-06-28T17:45:19.202261-00:00 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2020-06-28T17:45:19.791242-00:00 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2020-06-28T17:45:21.243385-00:00 6 [Warning] [MY-010453] [Server] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
+2020-06-28T17:45:27.409613-00:00 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.20) starting as process 91
+2020-06-28T17:45:27.435575-00:00 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2020-06-28T17:45:27.705486-00:00 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2020-06-28T17:45:27.802477-00:00 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock'
+2020-06-28T17:45:27.927932-00:00 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2020-06-28T17:45:27.949789-00:00 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.20'  socket: '/var/run/mysqld/mysqld.sock'  port: 0  MySQL Community Server - GPL.
+2020-06-28T17:45:34.867136-00:00 10 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.0.20).
+2020-06-28T17:45:37.310500-00:00 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.20)  MySQL Community Server - GPL.
+2020-06-28T17:45:38.133966-00:00 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.20) starting as process 1
+2020-06-28T17:45:38.146894-00:00 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2020-06-28T17:45:38.379700-00:00 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2020-06-28T17:45:38.479681-00:00 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock' bind-address: '::' port: 33060
+2020-06-28T17:45:38.573086-00:00 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2020-06-28T17:45:38.604429-00:00 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.20'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2020-06-28T17:48:42.228462-00:00 8 [Warning] [MY-010055] [Server] IP address '172.18.0.1' could not be resolved: Name or service not known
+mbind: Operation not permitted
+mbind: Operation not permitted
+2020-06-28T17:54:32.530683-00:00 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2020-06-28T17:54:32.530763-00:00 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2020-06-28T17:54:32.530791-00:00 0 [Note] mysqld (mysqld 5.7.30-log) starting as process 1 ...
+2020-06-28T17:54:32.541960-00:00 0 [Note] InnoDB: PUNCH HOLE support available
+2020-06-28T17:54:32.542501-00:00 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-06-28T17:54:32.542851-00:00 0 [Note] InnoDB: Uses event mutexes
+2020-06-28T17:54:32.543228-00:00 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2020-06-28T17:54:32.543523-00:00 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-06-28T17:54:32.543797-00:00 0 [Note] InnoDB: Using Linux native AIO
+2020-06-28T17:54:32.544512-00:00 0 [Note] InnoDB: Number of pools: 1
+2020-06-28T17:54:32.544967-00:00 0 [Note] InnoDB: Using CPU crc32 instructions
+2020-06-28T17:54:32.547003-00:00 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-06-28T17:54:32.561869-00:00 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-06-28T17:54:32.564896-00:00 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-06-28T17:54:32.576814-00:00 0 [ERROR] [FATAL] InnoDB: Table flags are 0 in the data dictionary but the flags in file ./ibdata1 are 0x4800!
+2020-06-28 17:54:32 0x7fc9abad3740  InnoDB: Assertion failure in thread 140504145409856 in file ut0ut.cc line 918
+InnoDB: We intentionally generate a memory trap.
+InnoDB: Submit a detailed bug report to http://bugs.mysql.com.
+InnoDB: If you get repeated assertion failures or crashes, even
+InnoDB: immediately after the mysqld startup, there may be
+InnoDB: corruption in the InnoDB tablespace. Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.7/en/forcing-innodb-recovery.html
+InnoDB: about forcing recovery.
+17:54:32 UTC - mysqld got signal 6 ;
+This could be because you hit a bug. It is also possible that this binary
+or one of the libraries it was linked against is corrupt, improperly built,
+or misconfigured. This error can also be caused by malfunctioning hardware.
+Attempting to collect some information that could help diagnose the problem.
+As this is a crash and something is definitely wrong, the information
+collection process might fail.
+
+key_buffer_size=8388608
+read_buffer_size=131072
+max_used_connections=0
+max_threads=151
+thread_count=0
+connection_count=0
+It is possible that mysqld could use up to 
+key_buffer_size + (read_buffer_size + sort_buffer_size)*max_threads = 68196 K  bytes of memory
+Hope that's ok; if not, decrease some variables in the equation.
+
+Thread pointer: 0x0
+Attempting backtrace. You can use the following information to find out
+where mysqld died. If you see no messages after this, something went
+terribly wrong...
+stack_bottom = 0 thread_stack 0x40000
+mysqld(my_print_stacktrace+0x2c)[0x56410a0854ac]
+mysqld(handle_fatal_signal+0x501)[0x56410999ced1]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x12730)[0x7fc9ac034730]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x10b)[0x7fc9abb0f7bb]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x121)[0x7fc9abafa535]
+mysqld(+0x6be079)[0x564109964079]
+mysqld(+0x6be457)[0x564109964457]
+mysqld(+0x11ab46c)[0x56410a45146c]
+mysqld(+0x11aba9e)[0x56410a451a9e]
+mysqld(_Z6fil_ioRK9IORequestbRK9page_id_tRK11page_size_tmmPvS8_+0x312)[0x56410a4596c2]
+mysqld(+0x116b75b)[0x56410a41175b]
+mysqld(_Z13buf_read_pageRK9page_id_tRK11page_size_t+0x37)[0x56410a411fa7]
+mysqld(_Z16buf_page_get_genRK9page_id_tRK11page_size_tmP11buf_block_tmPKcmP5mtr_tb+0x471)[0x56410a3e6f91]
+mysqld(_Z31trx_rseg_get_n_undo_tablespacesPm+0x13e)[0x56410a38401e]
+mysqld(+0x10afb97)[0x56410a355b97]
+mysqld(_Z34innobase_start_or_create_for_mysqlv+0x2f67)[0x56410a359757]
+mysqld(+0xf842e0)[0x56410a22a2e0]
+mysqld(_Z24ha_initialize_handlertonP13st_plugin_int+0x55)[0x5641099ee005]
+mysqld(+0xbdd3a6)[0x564109e833a6]
+mysqld(_Z40plugin_register_builtin_and_init_core_sePiPPc+0x1dc)[0x564109e8527c]
+mysqld(+0x6efe5e)[0x564109995e5e]
+mysqld(_Z11mysqld_mainiPPc+0x758)[0x564109997308]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xeb)[0x7fc9abafc09b]
+mysqld(_start+0x2a)[0x56410998dc2a]
+The manual page at http://dev.mysql.com/doc/mysql/en/crashing.html contains
+information that should help you find out what is causing the crash.
+2020-06-28T17:57:48.020571-00:00 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.20) starting as process 1
+2020-06-28T17:57:48.038604-00:00 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2020-06-28T17:57:48.373527-00:00 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2020-06-28T17:57:48.470811-00:00 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock' bind-address: '::' port: 33060
+2020-06-28T17:57:48.542850-00:00 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2020-06-28T17:57:48.564469-00:00 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.20'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2020-06-28T17:58:45.159830-00:00 8 [Warning] [MY-010055] [Server] IP address '172.20.0.1' could not be resolved: Name or service not known
+mbind: Operation not permitted
+mbind: Operation not permitted
